@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>UikitPro - Wallet & Banking HTML Mobile Template</title>
+    
+    <!-- favicon -->
+    <link rel=icon href="assets/img/favicon.png" sizes="20x20" type="image/png">
+
+    <!-- Stylesheet File -->
+    <link rel="stylesheet" href="assets/css/vendor.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body class='sc5'>
+
+    <!-- preloader area start -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="spinner">
+                <div class="dot1"></div>
+                <div class="dot2"></div>
+            </div>
+        </div>
+    </div>
+    <!-- preloader area end -->
+
+    <!-- header start -->
+    <div class="header-area bg-base">
+        <img class="ba-nose-img" src="demo/images/icons/1.png" alt="img">
+        <div class="container">
+            <div class="header-top">
+                <div class="row">
+                    <div class="col-6">
+                        <p>8:33</p>
+                    </div>
+                    <div class="col-6 text-end">
+                        <ul>
+                            <li><img src="assets/img/icon/37.png" alt="img"></li>
+                            <li><img src="assets/img/icon/38.png" alt="img"></li>
+                            <li><img src="assets/img/icon/39.png" alt="img"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 col-4 align-self-center">
+                    <div class="menu-bar">
+                        <img src="assets/img/icon/0.png" alt="logo">
+                    </div>
+                </div>
+                <div class="col-sm-4 col-4 text-center align-self-center text-center">
+                    <a href="home.html" class="logo">
+                        <img src="assets/img/logo.png" alt="logo">
+                    </a>
+                </div>
+                <div class="col-sm-4 col-4 align-self-center text-end">
+                    <ul class="header-right">
+                        <li>
+                            <a href="notification.html">
+                                <i class="fa fa-bell animated infinite swing"></i>
+                                <span class="badge">8</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="header-user" href="user-setting.html"><img src="assets/img/user.png" alt="img"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header end -->
+
+    <!-- navbar end -->
+    <div class="ba-navbar">
+        <div class="ba-navbar-user text-center">
+            <div class="menu-close">
+                <i class="la la-times"></i>
+            </div>
+            <div class="thumb">
+                <img src="assets/img/user.png" alt="user">
+            </div>
+            <div class="details">
+                <h5>رادورونتو كيلاكس
+                </h5>
+                <p>ID: 99883323</p>
+            </div>
+        </div>
+        <div class="ba-balance-inner mb-3 text-end align-self-center">
+            <div class="icon">
+                <img src="assets/img/icon/1.png" alt="img">
+            </div>
+            <h5 class="title">الرصيد المتوفر
+            </h5>
+            <h5 class="amount">$56,985.00</h5>
+        </div>
+        <div class="ba-add-balance-title">
+            <h5>الوديعة</h5>
+            <i class="fa fa-plus"></i>
+        </div>
+        <div class="ba-main-menu text-end">
+            <h5>قائمة الطعام
+            </h5>
+            <ul>
+                <li><a class="active" href="home.html">عرض Uikitpro
+                </a></li>
+                <li><a href="all-page.html">الصفحات</a></li>
+                <li><a href="about.html">معلومات عنا
+                </a></li>
+                <li><a href="carts.html">عربة التسوق الخاصة بي
+                </a></li>
+                <li><a href="user-setting.html">جلسة</a></li>
+                <li><a href="notification.html">تنبيه</a></li>
+                <li><a href="component.html">مكون</a></li>
+                <li><a class="mt-4" href="signup.html">تسجيل خروج
+                </a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- navbar end -->
+
+    <!-- navbar end -->
+    <div class="add-balance-inner-wrap">
+        <div class="container">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">إضافة رصيد
+                        </h5>
+                    </div>
+                    <div class="modal-body">
+                        <div class="action-sheet-content">
+                            <form action="index.html">
+                                <div class="form-group basic">
+                                    <div class="input-wrapper">
+                                        <label class="label" for="account1">من</label>
+                                        <select class="form-control custom-select" id="account1">
+                                            <option value="0">Investment (*** 7284)</option>
+                                            <option value="1">Savings (*** 5078)</option>
+                                            <option value="2">Deposit (*** 2349)</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="form-group basic">
+                                    <label class="label">أدخل المبلغ
+                                    </label>
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="input1">$</span>
+                                        </div>
+                                        <input type="text" class="form-control form-control-lg" value="768">
+                                    </div>
+                                </div>
+
+                                <div class="form-group basic">
+                                    <button type="button" class="btn-c btn-blue w-100 btn-lg" data-dismiss="modal">الوديعة</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- navbar end -->
+
+    <!-- balance start -->
+    <div class="balance-area mg-top-90">
+        <div class="container">
+            <div class="balance-area-bg balance-area-bg-home">
+                <div class="balance-title text-center">
+                    <h6>مرحبا!
+                        <br> عزيزي MR Sen - محفظة Uikitpro
+                    </h6>
+                </div>
+                <div class="ba-balance-inner text-end align-self-center">
+                    <div class="icon">
+                        <img src="assets/img/icon/1.png" alt="img">
+                    </div>
+                    <h5 class="title">الرصيد المتوفر
+                    </h5>
+                    <h5 class="amount">$56,985.00</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- balance End -->
+
+    <!-- add balance start -->
+    <div class="add-balance-area pt-4">
+        <div class="container">
+            <div class="ba-add-balance-title ba-add-balance-btn">
+                <h5>إضافة رصيد
+                </h5>
+                <i class="fa fa-plus"></i>
+            </div>
+            <div class="ba-add-balance-inner">
+                <div class="row custom-gutters-20">
+                    <div class="col-6 text-center">
+                        <a class="ba-add-balance-btn" href="#">
+                            <img src="assets/img/icon/8.png" alt="img">
+                            <h6>انسحب</h6> 
+                        </a>
+                    </div>
+                    <div class="col-6 text-center">
+                        <a class="ba-add-balance-btn" href="#">
+                            <img src="assets/img/icon/9.png" alt="img">
+                            <h6>إرسال</h6> 
+                        </a>
+                    </div>
+                    <div class="col-6 text-center">
+                        <a class="ba-add-balance-btn" href="#">
+                            <img src="assets/img/icon/10.png" alt="img">
+                            <h6>البطاقات
+                            </h6> 
+                        </a>
+                    </div>
+                    <div class="col-6 text-center">
+                        <a class="ba-add-balance-btn" href="#">
+                            <img src="assets/img/icon/11.png" alt="img">
+                            <h6>تبادل</h6> 
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- add balance End -->
+
+    <!-- goal area Start -->
+    <div class="goal-area text-end">
+        <div class="container">
+            <div class="section-title">
+                <h3 class="title float-end">أهداف الادخار
+                </h3>
+                <a class="float-start" href="saving.html">مشاهدة الكل
+                </a>
+            </div>
+            <div class="single-goal single-goal-one">
+                <div class="row">
+                    <div class="col-7 pr-0">
+                        <div class="details">
+                            <h6>تمويل الأعمال
+                            </h6>
+                            <p>اعمال</p>
+                        </div>
+                    </div>
+                    <div class="col-5 pl-0">
+                        <div class="circle-inner circle-inner-one">
+                            <h6 class="goal-amount">$130</h6>
+                            <div class="chart-circle" data-value="0.30">
+                                <canvas width="52" height="52"></canvas>
+                                <div class="chart-circle-value text-center">30%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-goal single-goal-two">
+                <div class="row">
+                    <div class="col-7 pr-0">
+                        <div class="details">
+                            <h6>متجر التطبيقات
+                            </h6>
+                            <p>تكنولوجيا
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-5 pl-0">
+                        <div class="circle-inner circle-inner-two">
+                            <h6 class="goal-amount">$165</h6>
+                            <div class="chart-circle" data-value="0.90">
+                                <canvas width="52" height="52"></canvas>
+                                <div class="chart-circle-value text-center">90%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-goal single-goal-three">
+                <div class="row">
+                    <div class="col-7 pr-0">
+                        <div class="details">
+                            <h6>برامج الألعاب
+                            </h6>
+                            <p>تطوير</p>
+                        </div>
+                    </div>
+                    <div class="col-5 pl-0">
+                        <div class="circle-inner circle-inner-three">
+                            <h6 class="goal-amount">$580</h6>
+                            <div class="chart-circle" data-value="0.60">
+                                <canvas width="52" height="52"></canvas>
+                                <div class="chart-circle-value text-center">60%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-goal single-goal-four">
+                <div class="row">
+                    <div class="col-7 pr-0">
+                        <div class="details">
+                            <h6>سيارة سباق
+                            </h6>
+                            <p>تلعب</p>
+                        </div>
+                    </div>
+                    <div class="col-5 pl-0">
+                        <div class="circle-inner circle-inner-four">
+                            <h6 class="goal-amount">$980</h6>
+                            <div class="chart-circle" data-value="0.60">
+                                <canvas width="52" height="52"></canvas>
+                                <div class="chart-circle-value text-center">60%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- goal area End -->
+
+    <!-- history start -->
+    <div class="history-area text-end pt-4">
+        <div class="container">
+            <div class="section-title">
+                <h3 class="title float-end">تاريخ</h3>
+                <a class="float-start" href="transaction.html">مشاهدة الكل
+                </a>
+            </div>
+            <div class="ba-history-inner">
+                <div class="row custom-gutters-20">
+                    <div class="col-6">
+                        <div class="ba-single-history ba-single-history-one">
+                            <h6>دخل</h6>
+                            <h5>$58,968.00</h5>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="ba-single-history ba-single-history-two">
+                            <h6>نفقات</h6>
+                            <h5>$50,968.00</h5>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="ba-single-history ba-single-history-three">
+                            <h6>مجموع الفواتير
+                            </h6>
+                            <h5>$50,968.00</h5>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="ba-single-history ba-single-history-four">
+                            <h6>مدخرات
+                            </h6>
+                            <h5>$58.00</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- history End -->
+
+    <!-- cart start -->
+    <div class="cart-area pt-3">
+        <div class="container">
+            <div class="section-title">
+                <h3 class="title float-end">عربة التسوق الخاصة بي
+                </h3>
+                <a class="float-start" href="carts.html">مشاهدة الكل
+                </a>
+            </div>
+            <img src="assets/img/cart/1.png" alt="img">
+        </div>
+    </div>
+    <!-- cart End -->
+
+    <!-- transaction start -->
+    <div class="transaction-area text-end pd-top-40">
+        <div class="container">
+            <div class="section-title">
+                <h3 class="title float-end">المعاملات</h3>
+                <a class="float-start" href="transaction.html">مشاهدة الكل
+                </a>
+            </div>
+            <ul class="transaction-inner">
+                <li class="ba-single-transaction">
+                    <div class="thumb">
+                        <img src="assets/img/icon/12.png" alt="img">
+                    </div>
+                    <div class="details">
+                        <h5>اسم شركة رخيصة
+                            .</h5>
+                        <p>شراء المجال
+                        </p>
+                        <h5 class="amount text-end">
+                            -$130 <br>
+                            <i class="fa fa-arrow-circle-right"></i>
+                        </h5>
+                    </div>
+                </li>
+                <li class="ba-single-transaction">
+                    <div class="thumb">
+                        <img src="assets/img/icon/13.png" alt="img">
+                    </div>
+                    <div class="details">
+                        <h5>اسم شركة رخيصة
+                        </h5>
+                        <p>شراء المجال
+</p>
+                        <h5 class="amount text-end">
+                            -$130 <br>
+                            <i class="fa fa-arrow-circle-right"></i>
+                        </h5>
+                    </div>
+                </li>
+                <li class="ba-single-transaction">
+                    <div class="thumb">
+                        <img src="assets/img/icon/14.png" alt="img">
+                    </div>
+                    <div class="details">
+                        <h5>اسم شركة رخيصة
+                        </h5>
+                        <p>شراء المجال
+</p>
+                        <h5 class="amount text-end">
+                            -$130 <br>
+                            <i class="fa fa-arrow-circle-right"></i>
+                        </h5>
+                    </div>
+                </li>
+                <li class="ba-single-transaction">
+                    <div class="thumb">
+                        <img src="assets/img/icon/15.png" alt="img">
+                    </div>
+                    <div class="details">
+                        <h5>اسم شركة رخيصة
+</h5>
+                        <p>شراء المجال
+</p>
+                        <h5 class="amount text-end">
+                            -$130 <br>
+                            <i class="fa fa-arrow-circle-right"></i>
+                        </h5>
+                    </div>
+                </li>
+                <li class="ba-single-transaction">
+                    <div class="thumb">
+                        <img src="assets/img/icon/16.png" alt="img">
+                    </div>
+                    <div class="details">
+                        <h5>اسم شركة رخيصة
+</h5>
+                        <p>شراء المجال
+</p>
+                        <h5 class="amount text-end">
+                            -$130 <br>
+                            <i class="fa fa-arrow-circle-right"></i>
+                        </h5>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- transaction End -->
+
+    <!-- send-money start -->
+    <div class="send-money-area text-end pd-top-36">
+        <div class="container">
+            <div class="section-title">
+                <h3 class="title float-end">إرسال الأموال
+                </h3>
+                <a class="float-start" href="bill-pay.html">مشاهدة الكل
+                </a>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="single-send-money">
+                        <img src="assets/img/send-money/1.png" alt="img">
+                        <p>أليكس سميث
+                        </p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="single-send-money">
+                        <img src="assets/img/send-money/2.png" alt="img">
+                        <p>ماريانو </p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="single-send-money">
+                        <img src="assets/img/send-money/3.png" alt="img">
+                        <p>كاريتيكا</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="single-send-money">
+                        <img src="assets/img/send-money/4.png" alt="img">
+                        <p>جون</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="single-send-money">
+                        <img src="assets/img/send-money/2.png" alt="img">
+                        <p>ماريانو </p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="single-send-money">
+                        <img src="assets/img/send-money/3.png" alt="img">
+                        <p>كاريتيكا
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- send-money End -->
+
+    <!-- bill pay start -->
+    <div class="bill-pay-area text-end pt-4">
+        <div class="container">
+            <div class="section-title">
+                <h3 class="title float-end">دفع الفاتورة
+                </h3>
+                <a class="float-start" href="bill-pay.html">مشاهدة الكل
+                </a>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="single-send-money">
+                        <img src="assets/img/icon/17.png" alt="img">
+                        <p>كهرباء</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="single-send-money">
+                        <img src="assets/img/icon/18.png" alt="img">
+                        <p>فاتورة الماء
+                        </p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="single-send-money">
+                        <img src="assets/img/icon/19.png" alt="img">
+                        <p>فاتورة الغاز
+                        </p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="single-send-money">
+                        <img src="assets/img/icon/20.png" alt="img">
+                        <p>فاتورة الإنترنت
+                        </p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="single-send-money">
+                        <img src="assets/img/icon/21.png" alt="img">
+                        <p>كابل </p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="single-send-money">
+                        <img src="assets/img/icon/22.png" alt="img">
+                        <p>تذكرة الباص
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- bill pay End -->
+
+    <!-- blog-area start -->
+    <div class="blog-area text-end pt-4">
+        <div class="container">
+            <div class="section-title">
+                <h3 class="title float-end">المشاركات الاخيرة
+                </h3>
+                <a class="float-start" href="blog.html">مشاهدة الكل
+                </a>
+            </div>
+            <div class="blog-slider owl-carousel">
+                <div class="item">
+                    <div class="single-blog">
+                        <div class="thumb">
+                            <img src="assets/img/blog/1.png" alt="img">
+                        </div>
+                        <div class="details">
+                            <a href="blog-details.html">كيف تحفظ أموالك في شركة تجارية خاصة.
+</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="single-blog">
+                        <div class="thumb">
+                            <img src="assets/img/blog/2.png" alt="img">
+                        </div>
+                        <div class="details">
+                            <a href="blog-details.html">كيف تحفظ أموالك في شركة تجارية خاصة.
+</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- blog-area End -->
+
+    <!-- Footer Area -->
+    <div class="footer-area">
+        <div class="footer-top pt-0 text-center">
+            <div class="container">
+                <a class="main-logo" href="home.html"><img src="assets/img/logo-2.png" alt=""></a>
+                <a class="dark-logo" href="home.html"><img src="assets/img/logo-3.png" alt=""></a>
+                <p>حقوق الطبع والنشر © Uikitpro 2021. جميع الحقوق محفوظة. صمم بواسطة قالب iPhone 11 Pro Max
+                </p>
+                <ul class="social-area">
+                    <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a class="pinterest" href="#"><i class="fa fa-pinterest"></i></a></li>
+                    <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="footer-bottom text-center">
+                <ul>
+                    <li>
+                        <a href="home.html">
+                            <img src="assets/img/icon/23.png" alt="img">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="all-page.html">
+                            <img src="assets/img/icon/24.png" alt="img">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="ba-add-balance-btn" href="#">
+                            <img src="assets/img/icon/27.png" alt="img">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="carts.html">
+                            <img src="assets/img/icon/25.png" alt="img">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="menu-bar" href="#">
+                            <img src="assets/img/icon/26.png" alt="img">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- footer End -->
+
+    <!-- back to top area start -->
+    <div class="back-to-top">
+        <span class="back-top"><i class="fa fa-angle-up"></i></span>
+    </div>
+    <!-- back to top area end -->
+
+    <!-- All Js File here -->
+    <script src="assets/js/vendor.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
